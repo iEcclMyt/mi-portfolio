@@ -26,7 +26,7 @@ html {
 body {
     background: var(--colorFondo);
     color: var(--colorTexto);
-    background-image: url('https://iecclmyt.github.io/assets/images/fondo.png');
+    background-image: url('../assets/images/fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -147,8 +147,9 @@ section {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 34.5rem;
+    width: 36rem;
     height: 5rem;
+    gap: 2rem;
 }
 
 .boton-caja .boton {
@@ -156,7 +157,7 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    width: 23rem;
     height: 100%;
     background: var(--colorPrincipal);
     border: .2rem solid var(--colorPrincipal);
